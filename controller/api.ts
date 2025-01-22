@@ -31,7 +31,7 @@ export const fetchUserHandler = async (
     res.status(200).json({
       data: user,
       status: 200,
-      message: "User not found",
+      message: "User fetch successfully",
     });
   } catch (error) {
     res.status(500).json({
