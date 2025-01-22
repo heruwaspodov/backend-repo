@@ -2,7 +2,7 @@ require("dotenv").config();
 
 import admin from "firebase-admin";
 
-const serviceAccount = require("@/firebase-adminsdk.json");
+const serviceAccount = require("@/firebase-adminsdk");
 
 const firebase = {
   apiKey: process.env.FIREBASE_API_KEY,
