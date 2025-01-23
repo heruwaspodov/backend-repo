@@ -1,5 +1,5 @@
 import { db } from "@/config/firebaseConfig";
-import { User } from "@/entities/user";
+import { User } from "@my-turborepo/shared-types";
 
 const USERS_COLLECTION = "USERS";
 

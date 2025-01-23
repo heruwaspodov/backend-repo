@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { fetchUserData, updateUserData } from "@/repository/userCollection";
-import { User } from "@/entities/user";
+import { User } from "@my-turborepo/shared-types";
 
 export const fetchUserHandler = async (
   req: Request,
